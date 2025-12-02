@@ -72,7 +72,7 @@ int main()
 
         if (line[0] != DIR_RIGHT && line[0] != DIR_LEFT)
         {
-            fprintf(stderr, "Linha inválida: %s\n", line);
+            fprintf(stderr, "Invalid line: %s\n", line);
             continue;
         }
 
