@@ -13,9 +13,7 @@ int extractSteps(char *word)
     word++;
 
     while (*word != '\n' && *word != '\0' && i < INPUT_LIMIT - 1)
-    {
         number_as_string[i++] = *word++;
-    }
 
     return (int)strtol(number_as_string, NULL, 10);
 }
